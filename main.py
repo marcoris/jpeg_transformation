@@ -69,7 +69,7 @@ def compress_image(filename, threshold=0):
     print("Image " + save_name + "_compressed_" + str((threshold * 1000)) + ".jpg" + " saved")
 
 
-# image file, compression percentage, Show plots
+# image file, compression percentage
 compress_image("img1.jpg", 0)
 compress_image("img1.jpg", 1)
 compress_image("img1.jpg", 10)
